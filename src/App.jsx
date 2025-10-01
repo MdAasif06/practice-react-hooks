@@ -7,6 +7,9 @@ import UseEffect from './components/UseEffect'
 import UseRef from './components/UseRef'
 import UseRefTwo from './components/UseRefTwo'
 import UseMemo from './components/UseMemo'
+import UseCallback from './components/UseCallback'
+
+
 const App = () => {
   return (
     <div>
@@ -16,7 +19,9 @@ const App = () => {
       {/* <UseEffect/> */}
       {/* <UseRef/> */}
       {/* <UseRefTwo/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+    
+      <UseCallback/>
     </div>
   )
 }
