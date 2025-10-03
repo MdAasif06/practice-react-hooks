@@ -9,6 +9,7 @@ import UseRefTwo from './components/UseRefTwo'
 import UseMemo from './components/UseMemo'
 import UseCallback from './components/UseCallback'
 import UseLayout from './components/UseLayout'
+import CustomHook from './components/CustomHook'
 
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
       {/* <UseMemo/> */}
     
       {/* <UseCallback/> */}
-      <UseLayout/>
+      {/* <UseLayout/> */}
+      <CustomHook/>
     </div>
   )
 }
