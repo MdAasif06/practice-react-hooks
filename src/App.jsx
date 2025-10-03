@@ -8,6 +8,7 @@ import UseRef from './components/UseRef'
 import UseRefTwo from './components/UseRefTwo'
 import UseMemo from './components/UseMemo'
 import UseCallback from './components/UseCallback'
+import UseLayout from './components/UseLayout'
 
 
 const App = () => {
@@ -21,7 +22,8 @@ const App = () => {
       {/* <UseRefTwo/> */}
       {/* <UseMemo/> */}
     
-      <UseCallback/>
+      {/* <UseCallback/> */}
+      <UseLayout/>
     </div>
   )
 }
